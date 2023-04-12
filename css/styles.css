@@ -39,3 +39,12 @@ footer a:hover {
 .navbar-brand {
   text-align: center;
 }
+
+.brand-colors {
+  --primary-color: #0077FF; /* your primary color */
+  --secondary-color: #FFA500; /* your secondary color */
+  --accent-color: #FF00FF; /* your accent color */
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px;
+}
