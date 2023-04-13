@@ -18,7 +18,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #FAF3DD;
 }
 
 /* Effect on social media buttons */
@@ -47,4 +47,16 @@ footer a:hover {
   background-color: var(--primary-color);
   color: white;
   padding: 20px;
+}
+
+.center-caption {
+  top: 200px;
+}
+
+.static-caption {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
