@@ -49,8 +49,12 @@ footer a:hover {
   padding: 20px;
 }
 
+.color-accent {
+	background-color: #FAF3DD
+}
+
 .center-caption {
-  top: 200px;
+  top: 250px;
 }
 
 .static-caption {
@@ -60,3 +64,33 @@ footer a:hover {
   transform: translate(-50%, -50%);
   z-index: 1;
 }
+
+
+
+.my-style h1 {
+	font-family: 'Rancho', cursive;
+}
+
+.my-style h2{
+	
+	font-family: 'More Sugar', sans-serif;
+}
+
+.my-style h5{
+	
+	font-family: 'More Sugar', sans-serif;
+}
+
+.my-style h3{
+	
+	font-family: 'More Sugar', sans-serif;
+}
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* semi-transparent black */
